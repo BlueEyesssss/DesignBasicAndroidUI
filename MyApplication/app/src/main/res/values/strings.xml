@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="forgot">Forgot your login detail ? <a href="https://www.youtube.com">Get help in Signal</a></string>
+    <string name="haveacc">Do you have an account ? <a href="#">Sign up</a></string>
+</resources>
