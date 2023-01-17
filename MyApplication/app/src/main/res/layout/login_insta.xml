@@ -39,7 +39,7 @@
         android:layout_marginBottom="16dp"
         android:background="#B7D3D3D3"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:text="Password"
         app:layout_constraintBottom_toTopOf="@+id/btnLogin"
         app:layout_constraintEnd_toEndOf="parent"
@@ -60,8 +60,9 @@
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
-        app:layout_constraintVertical_bias="1.0"/>
-        <!--android:onClick="onLogin"-->
+        app:layout_constraintVertical_bias="1.0"
+        android:onClick="LoginInsta"
+        />
 
 
     <TextView

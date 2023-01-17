@@ -19,25 +19,25 @@
         app:srcCompat="@mipmap/ic_launcher_foreground" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/txtPwdFb"
         android:layout_width="330dp"
         android:layout_height="47dp"
         android:ems="10"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnLoginFb"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.946" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/txtUsernameFb"
         android:layout_width="331dp"
         android:layout_height="52dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Email or phone"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword2"
+        app:layout_constraintBottom_toTopOf="@+id/txtPwdFb"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -50,7 +50,7 @@
         android:layout_marginBottom="76dp"
         android:text="FaceBook Change"
         android:textColor="@color/white"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
+        app:layout_constraintBottom_toTopOf="@+id/txtUsernameFb"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -71,7 +71,7 @@
         app:layout_constraintVertical_bias="0.926" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/btnLoginFb"
         android:layout_width="322dp"
         android:layout_height="47dp"
         android:background="#77747679"
@@ -80,7 +80,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.735" />
+        app:layout_constraintVertical_bias="0.735"
+        android:onClick="LginFb"/>
 
     <TextView
         android:id="@+id/textView8"
