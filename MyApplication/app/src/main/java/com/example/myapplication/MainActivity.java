@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     public void LoginInsta(View view){
         EditText txtUsername = findViewById(R.id.txtUsername);
         EditText txtPwd = findViewById(R.id.txtPwd);
+        //Happy New Years ! the last person is the winner
 //        if(txtUsername.getText().toString().equals("admin") && txtPwd.getText().toString().equals("123456")){
 //            Toast.makeText(MainActivity.this, "Login success, welcome admin !", Toast.LENGTH_SHORT).show();
 //
@@ -58,12 +59,5 @@ public class MainActivity extends AppCompatActivity {
 //        Intent it = new Intent(Intent.ACTION_DIAL, uri);
 //        startActivity(it);
 
-    }
-
-    public void LoginMain(View view){
-        EditText username = findViewById(R.id.username);
-        EditText pwd = findViewById(R.id.pwd);
-        String msg = "Hello Kha - username: " + username.getText().toString() + " - pwd: " + pwd.getText().toString();
-        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
     }
 }
