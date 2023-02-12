@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+      android:orientation="horizontal"
+       android:paddingLeft="5dp"
+       android:paddingTop="10dp"
+       android:paddingBottom="10dp">
+
+      <ImageView
+          android:id="@+id/img_menu"
+          android:layout_width="100dp"
+          android:layout_height="30dp"
+         android:src="@drawable/menu_3_gach_ngang"></ImageView>
+      <TextView
+          android:id="@+id/tv_name_shop"
+          android:layout_width="170dp"
+          android:layout_height="30dp"
+         android:text="Shop"
+         android:textSize="26dp"></TextView>
+
+      <ImageView
+          android:id="@+id/img_kinhlup"
+          android:layout_width="30dp"
+          android:layout_height="30dp"
+         android:src="@drawable/kinh_lup"></ImageView>
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+         android:src="@drawable/xe_day_hang"
+          android:scaleType="centerInside"></ImageView>
+
+
+   </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:padding="0dp">
+
+      <Button
+          android:id="@+id/btnfeature"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+         android:text="Feature"></Button>
+
+      <Button
+          android:id="@+id/btnDetails"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Detail"></Button>
+
+      <Button
+          android:id="@+id/btnCategory"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Category"></Button>
+   </LinearLayout>
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/rcv_category"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginLeft="10dp"
+       android:layout_marginBottom="10dp">
+
+   </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
